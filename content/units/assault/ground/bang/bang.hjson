@@ -1,0 +1,45 @@
+name: bang
+type: mech
+speed: 0.70
+hitSize: 8
+rotateSpeed: 5
+targetAir: true
+health: 125
+armor: 0
+mechFrontSway: 0.15
+weapons: [
+   {
+    type: Weapon
+    outlines: true
+    name: bang-weapon1
+    top: true
+    x: 0
+    y: 2
+    mirror: false
+    reload: 100
+shoot: {
+ shots: 3
+ shotDelay: 10
+}
+    recoil: 3
+    shake: 0.5
+    ejectEffect: casing1
+    shootSound: artillery
+      bullet: {
+               type: ArtilleryBulletType
+               name: shell
+               damage: 5
+               speed: 3
+               hitEffect: blastExplosion
+               knockback: 0.8
+               lifetime: 80
+               width:  7
+               height: 7
+               collides: true
+               collidesAir: true
+               collidesTiles: true
+               splashDamageRadius: 24
+               splashDamage: 10
+               }
+     }
+           ]

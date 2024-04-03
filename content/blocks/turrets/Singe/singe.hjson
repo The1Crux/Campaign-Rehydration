@@ -1,0 +1,51 @@
+type: ItemTurret
+category: turret
+name: Singe
+desc: a very high powerfull flamethrower capable of burning everything that it reachs
+size: 3
+inaccuracy: 5
+range: 600
+reload: 30
+recoil: 0.8
+shake: 0.5
+targetAir: true
+scaledHealth: 300
+shootSound: flame
+ammoEjectBack: 5
+ammoUseEffect: casing3Double
+requirements: [
+  thorium/350
+  lead/400
+  titanium/500
+  bronze/800
+  pyratite/180
+  plastanium/180
+]
+shoot: {
+ shots: 17
+ shotDelay: 1
+}
+ammoTypes: {
+    pyratite: {
+        type: ArtilleryBulletType
+        damage: 60
+        reflectable: false
+        speed: 1.8
+        lifetime: 1200
+        width: 15
+        height: 15
+        hitSize: 15
+        hitEffect: none
+        status: burning
+        statusDuration: 900
+        collidesAir: true
+        collidesGround: true
+        collides: true
+        collidesTiles: true
+        frontColor: lightishOrange
+        backColor: lightOrange
+        trailEffect: incendTrail
+        makeFire: true
+        despawnEffect: none
+    }
+}

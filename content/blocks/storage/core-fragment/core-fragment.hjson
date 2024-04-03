@@ -1,0 +1,17 @@
+type: CoreBlock
+name: Core: Fragment
+description: The first and the most basic core. storages a good amount of resources
+requirements: [
+  copper/1500
+  lead/1000
+  bronze/800
+  tin/1200
+]
+isFirstTier: true
+size: 3
+squareSprite: false
+unitType: redress
+health: 1350
+itemCapacity: 4250
+unitCapModifier: 10
+category: effect

@@ -1,0 +1,10 @@
+name: acid
+description: Used to refine Uranium
+temperature: 0.50
+flammability: 5
+viscosity: 0.9
+heatCapacity: 1
+boilPoint: 1.1
+explosiveness: 5
+color: 62ae7f
+moveThroughBlocks: true

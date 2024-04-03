@@ -1,0 +1,12 @@
+name: Bronze
+desc: Used for main building
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+hardness: 2
+cost: 1
+HealthScaling: 1.05
+LowPriority: true
+buildable: true
+color : d37f47

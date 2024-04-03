@@ -1,0 +1,48 @@
+type: flying
+name: Redress
+speed: 3
+accel: 0.1
+drag: 0.05
+flying: true
+description: Defends the Fragment core, builds and mines
+health: 165
+armor: 1
+lowAltitude: true
+mineFloor: true
+mineWalls: true
+hitSize: 8
+engineOffset: 6
+isEnemy: false
+mineSpeed: 8
+mineTier: 1
+outlineColor: 1e1e2b
+buildSpeed: 0.75
+itemCapacity: 35
+alwaysUnlocked: true
+weapons: [
+  {
+                name: redress-weapon
+                x: 2.75
+                outlineColor: 1e1e2b
+                y: 1
+                top: false
+                shootSound: pew
+                reload: 60
+                shoot: {
+                shots: 6
+                shotDelay: 2
+                }
+                ejectEffect: casing1
+                bullet: {
+                    type: BasicBulletType
+                    damage: 8
+                    speed: 3
+                    width: 7
+                    height: 9
+                    lifetime: 50
+                    shootEffect: shootSmall
+                    smokeEffect: shootSmallSmoke
+                    ammoMultiplier: 2
+                }
+                }
+            ]
